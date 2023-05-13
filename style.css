@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@400;500;600;700&family=Mulish:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+header{
+    height: 12.6rem;
+    background: #131313;
+}
+
+header .container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.top{
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Mulish';
+    text-transform: uppercase;
+}
+
+.span{
+    color: #F5F5F5;
+    opacity: 0.7;
+}
+
+nav ul{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    gap: 26px;
+    align-items: center;
+}
+
+li a {
+font-family: 'Brygada 1918';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 20px;
+text-transform: uppercase;
+color: #ADACAC;
+}
+
+li a:hover{
+    color: #FFFFFF;
+    transition: 0.3s ease-in;
+}
+
+.btn-reserv{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    color: #F3F3F3;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 6px 14px;
+    background: #DD332B;
+}
+
+#main-cont{
+    margin: auto;
+    width: 1280px;
+    height: 535px;
+    background-image: url(https://images.pexels.com/photos/3763621/pexels-photo-3763621.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: inicializar .7s forwards;
+}
+
+.discover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 170px;
+}
+
+.discover h1{
+font-family: 'Brygada 1918';
+font-size: 40px;
+letter-spacing: 0.05em;
+color: #F5F5F5;
+}
+
+.discover p{
+font-family: 'Brygada 1918';
+font-size: 17px;
+letter-spacing: 0.05em;
+color: #F5F5F5;
+padding-top: 10px;
+opacity: 0.8;
+}
+
+.botoes{
+    padding-top: 26px;
+    display: flex;
+    gap: 65px;
+}
+
+.btn-primary{
+padding: 7px 15px;
+gap: 10px;
+background: #131313;
+border: 2px solid #FCFCFC;
+
+}
+
+.btn-secondary{
+   padding: 7px 15px;
+   gap: 10px;
+   border: 2px solid #FCFCFC;
+}
+
+.botoes a{
+    color: #F3F3F3;
+    font-family: 'Brygada 1918', serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.btn-primary:hover{
+    color: #131313;
+    background: #FCFCFC;
+    border: 2px solid #131313;
+    transition: 1.3s;
+}
+
+.introducao{
+    margin: 26px auto;
+    width: 1022px;
+    height: 175px;
+    display: flex;
+    padding: 44px 24px;
+    background: #F8F8F8;
+    box-shadow: 0px 8px 24px rgba(19, 19, 19, 0.12);
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.informacoes h3{
+    font-family: 'Mulish';
+   font-weight: 700;
+   font-size: 17px;
+   line-height: 21px;
+   text-transform: uppercase;
+   color: #000000;
+}
+
+.informacoes p{
+    padding-top: 7px;
+    font-family: 'Mulish';
+font-weight: 400;
+font-size: 15px;
+line-height: 19px;
+color: #000000;
+opacity: 0.8;
+}
+
+
+.menu-presentation{
+    margin-top: 66px;
+    height: 456px;
+    background: #1D1D1D;
+    margin-bottom: 156px;
+}
+
+.menu-container{
+    margin: 0 auto;
+    max-width: 1280px;
+    display: flex;
+    gap: 10px;
+}
+
+.imagens-menu img{
+    width: 241px;
+    height: 456px;
+}
+
+.discover-menu{
+    width: 373px;
+    height: 188px;
+    margin: 134px 55px 134px 72px;
+    text-align: center;
+}
+
+.discover-menu h2{
+    font-family: 'Brygada 1918';
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #F5F5F5;
+    margin-bottom: 30px;
+}
+
+.discover-menu p{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 13px;
+text-transform: uppercase;
+color: #F5F5F5;
+opacity: 0.7;
+margin-bottom: 30px;
+}
+
+.discover-menu a{
+    color: #F3F3F3;
+padding: 10px 20px;
+border: 2px solid #F3F3F3;
+}
+
+@keyframes inicializar{
+    from{
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+
+.offer{
+    width: 798px;
+    height: 618px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.text-offer span{
+    margin-bottom: 5px;
+    font-family: 'Mulish';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #1D1D1D;
+}
+
+.text-offer h2{
+    font-family: 'Brygada 1918';
+font-weight: 700;
+font-size: 38px;
+line-height: 44px;
+text-transform: uppercase;
+color: #1D1D1D;
+margin-bottom: 21px;
+}
+
+.text-offer p{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+text-align: center;
+text-transform: uppercase;
+color: #1D1D1D;
+opacity: 0.8;
+margin-bottom: 60px;
+}
+
+
+.offer-menu img:hover{
+    scale: 1.1;
+    padding: 20px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.about{
+    height: 528px;
+    background-color: #1D1D1D;
+    margin-bottom: 120px;
+}
+
+.grid-about{
+    margin: auto;
+    max-width: 1280px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-item1{
+    width: 100%;
+    padding: 233px 82px;
+    text-align: center;
+}
+
+.grid-item1 span{
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+text-transform: uppercase;
+color: #F5F5F5;
+}
+
+.grid-item1 h2{
+    font-family: 'Brygada 1918';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #F5F5F5;
+}
+
+.grid-item3{
+    padding: 200px 20px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #F5F5F5;
+    opacity: 0.7;
+}
+
+.chefes{
+    margin: auto;
+    max-width: 1280px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.intro{
+    width: 679px;
+    height: 128px;
+    text-align: center;
+}
+
+.intro h3{
+    font-family: 'Brygada 1918';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 29px;
+text-transform: uppercase;
+color: #131313;
+padding-bottom: 28px;
+}
+
+.intro p{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #131313;
+opacity: 0.8;
+padding-bottom: 36px;
+}
+
+.chefs-intro{
+    display: flex;
+    text-align: center;
+}
+
+.biog span{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #131313;
+}
+
+.biog p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #131313;    
+}
+
+.map{
+    background-color: #F8F8F8;
+    height: 560px;
+}
+
+.map-container{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+}
+
+.mapa-lugar{
+    padding: 50px;
+    width: 552px;
+}
+
+.mapa-lugar h3{
+    font-family: 'Brygada 1918';
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 43px;
+    text-transform: uppercase;
+    color: #131313;
+    margin-bottom: 42px;
+}
+
+span{
+    color: #DD332B;
+}
+
+.place-text{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 0.8;
+    margin-bottom: 50px;
+}
+
+.places {
+    display: flex;
+    justify-content: space-between;
+}
+
+.places-title{
+    padding-bottom: 11px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #131313;
+opacity: 0.7;
+}
+
+.places-local{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+text-transform: uppercase;
+color: #131313;
+opacity: 0.7;
+padding-bottom: 11px;
+}
+
+footer{
+    margin-top: 136px;
+height: 68px;
+background: #131313;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+footer .social-links{
+    display: flex;
+    gap: 15px;
+}
+
+
+
+footer p{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 13px;
+text-transform: uppercase;
+color: #DBDBDB;
+}

@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@400;500;600;700&family=Mulish:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    background-color: #131313;
+    animation-name: deslize;
+    animation-duration: 1.2s;
+}
+
+header{
+    height: 12.6rem;
+    background: #131313;
+}
+
+header .container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.top{
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Mulish';
+    text-transform: uppercase;
+}
+
+.span{
+    color: #F5F5F5;
+    opacity: 0.7;
+}
+
+nav ul{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    gap: 26px;
+    align-items: center;
+}
+
+li a {
+font-family: 'Brygada 1918';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 20px;
+text-transform: uppercase;
+color: #ADACAC;
+}
+
+li a:hover{
+    color: #FFFFFF;
+    transition: 0.3s ease-in;
+}
+
+.btn-reserv{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    color: #F3F3F3;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 6px 14px;
+    background: #DD332B;
+}
+
+@keyframes deslize{
+    from{
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0px, 0);
+    }
+}
+
+.reserva h2{
+    color: #F8F8F8;
+    font-family: 'Brygada 1918';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+letter-spacing: 0.015em;
+text-align: center;
+margin: 40px 0 63px;
+}
+
+form{
+    width: 683px;
+    height: 300px;
+    background: #F8F8F8;
+    box-shadow: 0px 8px 24px rgba(19, 19, 19, 0.12);
+    border-radius: 15px 0px;
+    margin: auto;
+    padding: 36px 31px;
+}
+
+form input{
+    display: flex;
+    width: 141px;
+    height: 33px;
+    background: #F2F0F0;
+    border: 1px solid #1D1D1D;
+    display: inline-block;
+    padding: 6px 10px;
+    font-family: 'Mulish';
+    margin-right: 10px;
+}
+
+form textarea{
+    margin-top: 35px;
+    width: 320px;
+    height: 95px;
+    background: #F2F0F0;
+    border: 1px solid #1D1D1D;
+}
+
+.button-reserv{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: #f3f2f2;
+    background: #DD332B;
+    font-family: 'Mulish';
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.menu-presentation{
+    margin-top: 66px;
+    height: 456px;
+    background: #161616;
+    margin-bottom: 156px;
+}
+
+.menu-container{
+    margin: 0 auto;
+    max-width: 1280px;
+    display: flex;
+    gap: 10px;
+}
+
+.imagens-menu img{
+    width: 241px;
+    height: 456px;
+}
+
+.discover-menu{
+    width: 373px;
+    height: 188px;
+    margin: 134px 55px 134px 72px;
+    text-align: center;
+}
+
+.discover-menu h2{
+    font-family: 'Brygada 1918';
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #F5F5F5;
+    margin-bottom: 30px;
+}
+
+.discover-menu p{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 13px;
+text-transform: uppercase;
+color: #F5F5F5;
+opacity: 0.7;
+margin-bottom: 30px;
+}
+
+.discover-menu a{
+    color: #F3F3F3;
+padding: 10px 20px;
+border: 2px solid #F3F3F3;
+}
+
+footer{
+    margin-top: 136px;
+height: 68px;
+background: #131313;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+footer .social-links{
+    display: flex;
+    gap: 15px;
+}
+
+
+
+footer p{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 13px;
+text-transform: uppercase;
+color: #DBDBDB;
+}
